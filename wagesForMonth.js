@@ -85,5 +85,6 @@ for(let day=1;day<=20;day++){
 console.log("Total Monthly Wage: " + totalWages );
 }
 Attendance();
-wageCalculation();  
+wageCalculation();
 calculateWagesForMonth();
+
