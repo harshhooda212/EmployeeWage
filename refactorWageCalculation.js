@@ -30,4 +30,4 @@ let wagesEarned = hoursWorked * wagesPerHour;
 console.log("Work Hours: " + hoursWorked + ", Wages Earned: " + wagesEarned);
 
 }
-module.exports = calculateWages;
+calculateWages();

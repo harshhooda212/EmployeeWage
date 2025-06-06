@@ -1,6 +1,7 @@
 //Use Case :1 Will Check if an employee is present
 
-const present = 1;
+function Attendance(){
+  const present = 1;
 let attendance = Math.floor(Math.random() * 2); 
 
 if (attendance == present) {
@@ -11,3 +12,5 @@ if (attendance == present) {
 
   console.log("Employee is Absent");
 }
+}
+Attendance();
